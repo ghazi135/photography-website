@@ -2,8 +2,8 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import About from "./component/About";
 import Contact from "./component/Contact";
-import Skill from "./Skill";
-import Project from "./Project";
+import Skill from "./component/Skill";
+import Project from "./component/Project";
 
 test('renders learn react link', () => {
   render(<About />);

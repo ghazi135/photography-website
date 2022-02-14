@@ -6,8 +6,8 @@ import About from "./About";
 import { Route, Routes} from 'react-router-dom';
 import Contact from "./Contact";
 import { Fade } from '@mui/material';
-import Project from "../Project";
-import Skill from "../Skill";
+import Project from "./Project";
+import Skill from "./Skill";
 
 
 function App() {
