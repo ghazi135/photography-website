@@ -5,16 +5,16 @@ import Contact from "./component/Contact";
 import Skill from "./component/Skill";
 import Project from "./component/Project";
 
-test('renders learn react link', () => {
-  render(<About />);
-  const linkElement = screen.getByText(/about/i);
-  expect(linkElement).toBeInTheDocument();
-});
-test('render contact component', () => {
-  render(<Contact />);
-  const linkElement = screen.getByText(/contact/i);
-  expect(linkElement).toBeInTheDocument();
-});
+// test('renders learn react link', () => {
+//   render(<About />);
+//   const linkElement = screen.getByText(/about/i);
+//   expect(linkElement).toBeInTheDocument();
+// });
+// test('render contact component', () => {
+//   render(<Contact />);
+//   const linkElement = screen.getByText(/contact/i);
+//   expect(linkElement).toBeInTheDocument();
+// });
 
 test('renders skill component', () => {
   render(<Skill />);
