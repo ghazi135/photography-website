@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Header.css';
 import {Container, Nav, Navbar} from "react-bootstrap";
-import { LinkContainer } from 'react-router-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap';
 import {Fade} from "@mui/material";
 
 function Header() {

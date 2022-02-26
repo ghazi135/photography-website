@@ -1,4 +1,8 @@
 
+.containers-center{
+    margin-right: 20%;
+    padding: 9%;
+}
 img {
     box-shadow: 2rem 2rem 2rem #000;
     border-radius: 600px;
