@@ -1,7 +1,7 @@
 import React from 'react';
-import '../About.css';
+import './About.css';
 import Fade from '@mui/material/Fade';
-import picture from "../profile-picture.jpg"
+import picture from "../../profile-picture.jpg"
 import {Col, Container, Row} from "react-bootstrap";
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Contact.css';
+import '../contact/Contact.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Fade} from "@mui/material";

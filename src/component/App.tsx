@@ -1,13 +1,13 @@
 import React from 'react';
 import '../App.css';
-import Header from "./Header";
+import Header from "./header/Header";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import About from "./About";
+import About from "./about/About";
 import { Route, Routes} from 'react-router-dom';
-import Contact from "./Contact";
+import Contact from "./contact/Contact";
 import { Fade } from '@mui/material';
-import Project from "./Project";
-import Skill from "./Skill";
+import Project from "./project/Project";
+import Skill from "./skill/Skill";
 
 
 function App() {

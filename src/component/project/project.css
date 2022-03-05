@@ -1,0 +1,7 @@
+.divider {
+    display: inline-block;
+    width: 2px;
+    background-color: coral;
+    margin: 0 10px;
+    height: 1em;
+}
