@@ -1,21 +1,23 @@
 import React from 'react';
 import './project.css';
-import data from '../../data/projectData.json'
+// import data from '../../data/projectData.json'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Card, CardActions, CardContent, Fade, Typography} from "@mui/material";
 
 function Project() {
-    const DisplayData=data.map(
-        (project)=>{
-            return(
-                <h1></h1>
-            )
-        }
-    )
+    // const DisplayData=data.map(
+    //     (project)=>{
+    //         return(
+    //             <tr>
+    //                 <td>{project.technologies}</td>
+    //             </tr>
+    //         )
+    //     }
+    // )
     return (
         <Fade in timeout={{ enter: 1200 }}>
             <div className="Project">
-                {DisplayData}
+                {/*{DisplayData}*/}
             <Card sx={{
                 mx: 'auto',
                 color: 'white',
