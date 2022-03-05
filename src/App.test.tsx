@@ -22,8 +22,8 @@ test('renders skill component', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-test('renders project component', () => {
-  render(<Project />);
-  const linkElement = screen.getByText(/project/i);
-  expect(linkElement).toBeInTheDocument();
-});
+// test('renders project component', () => {
+//   render(<Project />);
+//   const linkElement = screen.getByText(/project/i);
+//   expect(linkElement).toBeInTheDocument();
+// });
