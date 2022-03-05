@@ -1,7 +1,10 @@
-.divider {
-    display: inline-block;
-    width: 2px;
-    background-color: coral;
-    margin: 0 10px;
-    height: 1em;
+.sep-text {
+    display:table-cell;
+    vertical-align:middle;
+    background: coral;
+    padding-top: 5px;
+    padding-bottom:  5px;
+
+    max-height: 80%;
+    font-size: 1px
 }
