@@ -3,6 +3,7 @@ import './project.css';
 // import data from '../../data/projectData.json'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Fade, Grid} from "@mui/material";
+import picture from "../../assets/safetyNet.png";
 
 function Project() {
     // const DisplayData=data.map(
@@ -27,40 +28,23 @@ function Project() {
                     border: 1,
                     maxWidth: '60%',
                     fontSize: 14,
+                    justifyContent: 'center',
                     padding: '20px',
                     borderColor: 'white',
-                    justifyContent: 'center',
                     borderRadius: 2,
                     overflow: 'auto'
                 }}>
-                    <Grid item xs>
-                        Word of the Day
-                        adjective
-                        Word of the Day
-                        adjective
-                        Word of the Day
-                        adjective
-                        Word of the Day
-                        adjective
-                        Word of the Day
-                        adjective Word of the Day
-                        adjective
+                    <Grid className="grid-padding"  item xs>
+                        <img className="img-project" src={picture} alt="ghazi"/>
                     </Grid>
-                    <div className="sep-text">
-                        '
-                    </div>
-                    <Grid item xs>
-                        Word of the Day
-                        adjective
-                        Word of the Day
-                        adjective
-                        Word of the Day
-                        adjective
-                        Word of the Day
-                        adjective
-                        Word of the Day
-                        adjective Word of the Day
-                        adjective                    </Grid>
+                    <div className="sep-text">'</div>
+                    <Grid className="grid-padding"  item xs>
+                        The purpose of this application is to send information to emergency service systems. Your role will be to create the back-end of this new application from scratch.
+                        To give you more clarification on usage, here are some examples:
+                        If, for example, a fire breaks out, SafetyNet Alerts needs to provide information about the people in the burning building, such as their phone numbers.
+                        In the event of a hurricane alert, we want SafetyNet Alerts to be able to text everyone in the area. To do this, SafetyNet Alerts needs to collect the phone numbers of people living in homes near the hurricane area.
+                        In the event of a flood, we want to provide emergency services with specific information about people in the area. We need to know the potential victims, their ages and their medical history (treatments, allergies, etc.).
+                    </Grid>
                 </Grid>
             </div>
         </Fade>

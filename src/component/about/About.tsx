@@ -17,7 +17,7 @@ function About() {
 
                         <Row>
 
-                            <Col md={{ span: 2, offset:3 }}>  <img src={picture} alt="ghazi"/></Col>
+                            <Col md={{ span: 2, offset:3 }}>  <img className="img-about" src={picture} alt="ghazi"/></Col>
                             <Col md={{ span: 5, offset:2}}>
                                <p>Hi 👋🏼 I'm Ghazi, a Full Stack web developer. I'm interested in anything tech — especially web dev and UI/UX. I love building delightful and clean experiences.</p>
 
