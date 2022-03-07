@@ -2,7 +2,7 @@ import React from 'react';
 import './project.css';
 // import data from '../../data/projectData.json'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Divider, Fade, Grid} from "@mui/material";
+import { Fade, Grid} from "@mui/material";
 import picture from "../../assets/safetyNet.png";
 
 function Project() {
