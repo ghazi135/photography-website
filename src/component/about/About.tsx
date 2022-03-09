@@ -19,9 +19,9 @@ function About() {
 
                             <Col md={{ span: 2, offset:3 }}>  <img className="img-about" src={picture} alt="ghazi"/></Col>
                             <Col md={{ span: 5, offset:2}}>
-                               <p>Hi 👋🏼 I'm Ghazi, a Full Stack web developer. I'm interested in anything tech — especially web dev and UI/UX. I love building delightful and clean experiences.</p>
+                               <p>Hi <span className="wave" role="img" aria-label="wave">👋🏼</span> I'm Ghazi, a Full Stack web developer. I'm interested in anything tech — especially web dev and UI/UX. I love building delightful and clean experiences.</p>
 
-                                <p>Currently I work as a Full Stack engineer for Hardis Group Come build greet experience for our clients with us. We're hiring!</p>
+                                <p>Currently I work as a Full Stack engineer for QIM INFO Come build greet experience for our clients with us. We're hiring!</p>
 
                                 <p>I'm from Tunisia and i moved to France when i was 17 years old. If I'm not beep booping, you can find me playing frisbee, visiting friendos, Yelping restaurants to try, or speaking to your manager.</p>
 

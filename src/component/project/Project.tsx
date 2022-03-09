@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Fade, Grid, Hidden} from "@mui/material";
 import {projectInfo} from "../../constants";
 
- const ProjectCard = (props: {image: string ; width: any; height: any;  title: object; stack: string ; description: object; buttons: object; }) => {
+const ProjectCard = (props: { image: string; width: any; height: any; title: object; stack: string; description: object; buttons: any; }) => {
 
     return (
         <Fade in timeout={{enter: 1200}}>
@@ -25,12 +25,16 @@ import {projectInfo} from "../../constants";
                         borderRadius: 2,
                         overflow: 'auto'
                     }}>
-                        <img className="img-project" src={props.image} width={props.width} height={props.height} alt="ghazi"/>
-                        <div className="line"> <h1>{props.title}</h1></div>
+                        <img className="img-project" src={props.image} width={props.width} height={props.height}
+                             alt="ghazi"/>
+                        <div className="back-in-line">
+                            stack :  <span className='ProjectsCardMobile-grid-right'> {props.stack} </span>
+                        </div>
+
+                        <a className="code" target='_blank'  href={props.buttons.link}><span>{props.buttons.name}</span></a>
                         <div className="line"></div>
-
-                            {props.description}
-
+                        <div><h1>{props.title}</h1></div>
+                        {props.description}
                     </Grid>
                     <br/>
 
@@ -52,7 +56,7 @@ import {projectInfo} from "../../constants";
                         overflow: 'auto'
                     }}>
                         <img className="img-project" src={props.image} alt="ghazi"/>
-                        <div className="line"> <h1>{props.title}</h1></div>
+                        <div className="line"><h1>{props.title}</h1></div>
 
                         <div className="line"></div>
 
@@ -72,14 +76,14 @@ import {projectInfo} from "../../constants";
 const Project = () => {
 
     return (
-            <div className="Project">
-                {
-                    projectInfo.map(project => (
-                        <ProjectCard {...project}/>
-                    ))
-                }
+        <div className="Project">
+            {
+                projectInfo.map(project => (
+                    <ProjectCard {...project}/>
+                ))
+            }
 
-            </div>
+        </div>
 
     );
 }

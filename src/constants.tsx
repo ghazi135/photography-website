@@ -2,7 +2,8 @@ import React from "react";
 
 
 import SafetyNet from './assets/safetyNet.png';
-import Mediscreen from './assets/mediscreen.png'
+import Mediscreen from './assets/mediscreen.png';
+import PayMyBuddy from './assets/payMyBuddy.png';
 
 export const projectInfo = [
     {
@@ -24,17 +25,17 @@ export const projectInfo = [
         ),
         buttons: {
                 name: 'code',
-                link: 'https://github.com/karenying/gradient',
+                link: 'https://github.com/ghazi135/P5-OC',
             }
         ,
     },
     {
         image: Mediscreen,
         width: '400px',
-        height: '250px',
+        height: '150px',
         title: (<div>Mediscreen</div>),
 
-        stack: 'Spring Boot',
+        stack: 'Spring-Boot + Angular 12 + MySql + NoSql + Docker',
         description: (
             <p>
                 The purpose of this application is to send information to emergency service systems.
@@ -48,10 +49,26 @@ export const projectInfo = [
         ),
         buttons: {
             name: 'code',
-            link: 'https://github.com/karenying/gradient',
+            link: 'https://github.com/ghazi135/P9-OC',
         }
-        ,
+    },
+    {
+        image: PayMyBuddy,
+        width: '600px',
+        height: '250px',
+        title: (<div>Pay My Buddy</div>),
+        stack: 'Spring Boot + Thymleaf + MySql',
+        description: (
+            <p>
+                an application that would allow customers to transfer money to manage their finances or pay their friends
+             </p>
+        ),
+        buttons: {
+            name: 'code',
+            link: 'https://github.com/ghazi135/P6-OC',
+        }
     }
+
 
 
 
