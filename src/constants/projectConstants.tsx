@@ -70,7 +70,7 @@ export const projectInfo = [
     },
     {
         image: Mediscreen,
-        width: '400px',
+        width: '280px',
         height: '120px',
         title: (<div>Mediscreen</div>),
 

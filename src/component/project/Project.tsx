@@ -57,14 +57,15 @@ const ProjectCard = (props: { image: string; width: any; height: any; title: obj
                     }}>
                         <img className="img-project" src={props.image} width={props.width} height={props.height}
                              alt="ghazi"/>
-                        <div className="line"><h1>{props.title}</h1></div>
+                        <div className="back-in-line">
+                            stack : <span className='ProjectsCardMobile-grid-right'> {props.stack} </span>
+                        </div>
 
+                        <a target="_blank" rel="noreferrer noopener" className="code"
+                           href={props.buttons.link}><span>{props.buttons.name}</span></a>
                         <div className="line"></div>
-
-                        <p>
-                            {props.description}
-                        </p>
-
+                        <div><h1>{props.title}</h1></div>
+                        {props.description}
                     </Grid>
                 </Hidden>
             </div>
