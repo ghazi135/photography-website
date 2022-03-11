@@ -41,3 +41,17 @@
     box-shadow: 7px 4px 4px #000;
     color: coral;
 }
+
+.code-mobile {
+    width: 13%;
+    text-decoration: none;
+    color: coral;
+    margin-top: 50px;
+    border: 1px solid coral;
+    border-radius: 9px;
+}
+
+.code-mobile:hover {
+    box-shadow: 7px 4px 4px #000;
+    color: coral;
+}

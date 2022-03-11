@@ -61,7 +61,7 @@ const ProjectCard = (props: { image: string; width: any; height: any; title: obj
                             stack : <span className='ProjectsCardMobile-grid-right'> {props.stack} </span>
                         </div>
 
-                        <a target="_blank" rel="noreferrer noopener" className="code"
+                        <a target="_blank" rel="noreferrer noopener" className="code-mobile"
                            href={props.buttons.link}><span>{props.buttons.name}</span></a>
                         <div className="line"></div>
                         <div><h1>{props.title}</h1></div>
