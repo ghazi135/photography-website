@@ -1,19 +1,20 @@
 .sep-text {
-    display:table-column;
-    horiz-align:center;
+    display: table-column;
+    horiz-align: center;
     background: coral;
     color: coral;
     padding-top: 5px;
-    padding-bottom:  5px;
+    padding-bottom: 5px;
 
     font-size: 5px
 }
+
 .line {
     width: 100%;
     height: 0;
     border: 1px solid coral;
     margin: 50px;
-    display:inline-block;
+    display: inline-block;
 }
 
 .back-in-line {
@@ -32,11 +33,11 @@
     text-decoration: none;
     color: coral;
     margin-top: 50px;
-    border: 1px solid coral ;
+    border: 1px solid coral;
     border-radius: 9px;
 }
 
- .code:hover{
+.code:hover {
     box-shadow: 7px 4px 4px #000;
-     color: coral;
- }
+    color: coral;
+}

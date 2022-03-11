@@ -8,7 +8,7 @@ import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.render(
     <BrowserRouter basename="/">
-    <App />
+        <App/>
     </BrowserRouter>, document.getElementById('root'));
 
 reportWebVitals();

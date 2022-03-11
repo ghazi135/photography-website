@@ -1,8 +1,5 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
-import About from "./component/about/About";
-import Contact from "./component/contact/Contact";
-import Project from "./component/project/Project";
+import {render, screen} from '@testing-library/react';
 import Career from "./component/career/Career";
 
 // test('renders learn react link', () => {
@@ -17,9 +14,9 @@ import Career from "./component/career/Career";
 // });
 
 test('renders skill component', () => {
-  render(<Career />);
-  const linkElement = screen.getByText(/skill/i);
-  expect(linkElement).toBeInTheDocument();
+    render(<Career/>);
+    const linkElement = screen.getByText(/skill/i);
+    expect(linkElement).toBeInTheDocument();
 });
 
 // test('renders project component', () => {
