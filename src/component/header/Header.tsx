@@ -31,9 +31,9 @@ function Header() {
                                 <LinkContainer to="/project">
                                     <Nav.Link>Project</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to="/career">
-                                    <Nav.Link>Career</Nav.Link>
-                                </LinkContainer>
+                                {/*<LinkContainer to="/career">*/}
+                                {/*    <Nav.Link>Career</Nav.Link>*/}
+                                {/*</LinkContainer>*/}
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

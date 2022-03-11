@@ -32,7 +32,8 @@ function About() {
                                 speaking to your manager.</p>
 
                             <p>Sometimes I blog (read: complain/meme) about coding and design and doing some shooting
-                                with models and landscapes. Check out some of my past projects on my Github space and
+                                with models or landscapes. Check out my instagram page and enjoy watching my best photos
+                                or some of my past projects on my Github space and
                                 feel free to connect!</p>
                         </Col>
                     </Row>
