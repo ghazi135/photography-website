@@ -9,8 +9,8 @@ import Fusescrum from '../assets/fuzeScrum.png';
 export const projectInfo = [
     {
         image: Fusescrum,
-        width: '600px',
-        height: '250px',
+        width: '350px',
+        height: '200px',
         title: (<div>FuseScrum</div>),
         stack: 'detailed project specifications + Analyze a specification + List the features requested by a client + UML + Adobe XD',
         description: (
@@ -26,8 +26,8 @@ export const projectInfo = [
     },
     {
         image: SafetyNet,
-        width: '400px',
-        height: '350px',
+        width: '350px',
+        height: '300px',
         title: (<div>Safety Net</div>),
         stack: 'Spring Boot',
         description: (
