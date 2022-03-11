@@ -1,13 +1,31 @@
 
-.containers-center{
+.containers-center {
     margin-right: 20%;
     padding: 9%;
 }
+
 .img-about {
     box-shadow: 2rem 2rem 2rem #000;
     border-radius: 600px;
     width: 300px;
 }
+
+a {
+    text-decoration: none;
+
+}
+
+p {
+    font-size: 17px;
+    font-weight: 550;
+
+}
+
+.qim-info {
+    color: #61dafb;
+
+}
+
 span.wave {
     animation-name: wave-animation;
     animation-delay: 1s;

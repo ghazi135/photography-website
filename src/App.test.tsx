@@ -2,8 +2,8 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import About from "./component/about/About";
 import Contact from "./component/contact/Contact";
-import Skill from "./component/skill/Skill";
 import Project from "./component/project/Project";
+import Career from "./component/career/Career";
 
 // test('renders learn react link', () => {
 //   render(<About />);
@@ -17,7 +17,7 @@ import Project from "./component/project/Project";
 // });
 
 test('renders skill component', () => {
-  render(<Skill />);
+  render(<Career />);
   const linkElement = screen.getByText(/skill/i);
   expect(linkElement).toBeInTheDocument();
 });

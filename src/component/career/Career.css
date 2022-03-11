@@ -1,0 +1,11 @@
+.grid {
+    border: 1px solid coral ;
+    width: 50%;
+    border-radius: 9px;
+    box-shadow: 2rem 2rem 2rem #000;
+    margin: 30px;
+}
+
+.Career {
+    position: relative;
+}

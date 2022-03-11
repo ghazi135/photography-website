@@ -6,7 +6,8 @@ import About from "./about/About";
 import { Route, Routes} from 'react-router-dom';
 import Contact from "./contact/Contact";
 import Project from "./project/Project";
-import Skill from "./skill/Skill";
+import Career from "./career/Career";
+import Footer from "./footer/Footer";
 
 
 function App() {
@@ -16,10 +17,11 @@ function App() {
       <Routes>
           <Route path="/" element={<About />}/>
           <Route path="/about" element={<About />}/>
-        <Route path="/contact" element={<Contact />}/>
+          <Route path="/contact" element={<Contact />}/>
           <Route path="/project" element={<Project />}/>
-          <Route path="/skill" element={<Skill />}/>
+          <Route path="/career" element={<Career />}/>
       </Routes>
+          <Footer/>
     </div>
   );
 }
