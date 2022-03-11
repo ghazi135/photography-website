@@ -1,8 +1,11 @@
-.footer {
-    margin-top: 11%;
-}
-.footer-mobile {
-    margin-top: 45%;
+
+.footer-style {
+    padding: 10px 10px;
+    margin-top: 170px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+
 }
 .logo-footer {
     margin: 5px;

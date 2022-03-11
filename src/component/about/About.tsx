@@ -6,7 +6,6 @@ import {Col, Container, Row} from "react-bootstrap";
 
 
 function About() {
-    // @ts-ignore
     return (
         <Fade in timeout={{enter: 1200}}>
             <div className="About">
@@ -40,6 +39,7 @@ function About() {
 
 
                 </Container>
+
 
             </div>
 

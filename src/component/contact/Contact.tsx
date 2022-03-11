@@ -19,7 +19,8 @@ function Contact() {
                 </div>
                 You can also connect with me on <a className="email" href="https://www.linkedin.com/in/ghazi-bouzazi/">&nbsp;LinkedIn</a> or DM.
             </div>
-            </div>
+
+        </div>
 
         </Fade>
     );
