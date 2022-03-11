@@ -18,19 +18,19 @@ function Footer() {
                         <a target="_blank"
                            rel="noreferrer noopener"
                            href="https://www.instagram.com/photos_of_ghazi/">
-                            <img className="logo-footer" src={Instagram}/>
+                            <img className="logo-footer" src={Instagram} alt="instagram"/>
                         </a>
 
                         <a target="_blank"
                            rel="noreferrer noopener"
                            href="https://www.linkedin.com/in/ghazi-bouzazi/">
-                            <img className="logo-footer" src={LinkedIn}/>
+                            <img className="logo-footer" src={LinkedIn} alt="linkedIn"/>
                         </a>
 
                         <a target="_blank"
                            rel="noreferrer noopener"
                            href="https://github.com/ghazi135">
-                            <img className="logo-footer" src={Github}/>
+                            <img className="logo-footer" src={Github} alt="github"/>
                         </a>
                         <span>
                     &#169; ghazi bouzazi 2022 • all rights reserved
@@ -43,19 +43,19 @@ function Footer() {
                         <a target="_blank"
                            rel="noreferrer noopener"
                            href="https://www.instagram.com/photos_of_ghazi/">
-                            <img className="logo-footer" src={Instagram}/>
+                            <img className="logo-footer" src={Instagram}  alt="instagram"/>
                         </a>
 
                         <a target="_blank"
                            rel="noreferrer noopener"
                            href="https://www.linkedin.com/in/ghazi-bouzazi/">
-                            <img className="logo-footer" src={LinkedIn}/>
+                            <img className="logo-footer" src={LinkedIn} alt="linkedin"/>
                         </a>
 
                         <a target="_blank"
                            rel="noreferrer noopener"
                            href="https://github.com/ghazi135">
-                            <img className="logo-footer" src={Github}/>
+                            <img className="logo-footer" src={Github} alt="github"/>
                         </a>
                         <span>
                     &#169; ghazi bouzazi 2022 • all rights reserved
