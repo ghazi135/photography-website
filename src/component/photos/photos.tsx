@@ -18,7 +18,6 @@ import photo17 from '../../constants/photography/IMG_3205.jpg';
 import photo18 from '../../constants/photography/IMG_3164.jpg';
 import photo19 from '../../constants/photography/IMG_3161.jpg';
 import photo20 from '../../constants/photography/IMG_3065.jpg';
-import photo21 from '../../constants/photography/IMG_3389.jpg';
 
 
 
