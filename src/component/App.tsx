@@ -7,6 +7,7 @@ import {Route, Routes} from 'react-router-dom';
 import Contact from "./contact/Contact";
 import Project from "./project/Project";
 import Footer from "./footer/Footer";
+import Photography from "./photos/Photography";
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
                 <Route path="/about" element={<About/>}/>
                 <Route path="/contact" element={<Contact/>}/>
                 <Route path="/project" element={<Project/>}/>
-                {/*<Route path="/career" element={<Career />}/>*/}
+                <Route path="/photography" element={<Photography />}/>
             </Routes>
             <Footer/>
         </div>
