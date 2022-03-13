@@ -15,15 +15,14 @@ function App() {
     return (
         <div className="App">
             <Header/>
-            <Routes>
-                    <Route path="/" element={<About/>}/>
+            <Routes >
+
+                <Route  path="/" element={<About/>}/>
                     <Route path="/about" element={<About/>}/>
                     <Route path="/contact" element={<Contact/>}/>
                     <Route path="/project" element={<Project/>}/>
                     <Route path="/photography" element={<Photography />}/>
-                    <Route path="/*" element={<Error />}/>
-
-
+                <Route path="*" element={<Error />}/>
 
             </Routes>
             <Footer/>

@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.render(
-    <BrowserRouter basename="/">
+    <BrowserRouter  basename={process.env.PUBLIC_URL}>
         <App/>
     </BrowserRouter>, document.getElementById('root'));
 
