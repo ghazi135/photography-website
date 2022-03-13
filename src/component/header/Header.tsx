@@ -22,16 +22,16 @@ function Header() {
 
                             </Nav>
                             <Nav>
-                                <LinkContainer to="/contact">
+                                <LinkContainer to={process.env.PUBLIC_URL + "/contact"}>
                                     <Nav.Link>Contact</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to="/about">
+                                <LinkContainer to={process.env.PUBLIC_URL + "/about"}>
                                     <Nav.Link>About</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to="/project">
+                                <LinkContainer to={process.env.PUBLIC_URL + "/project"}>
                                     <Nav.Link>Project</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to="/photography">
+                                <LinkContainer to={process.env.PUBLIC_URL + "/photography"}>
                                     <Nav.Link>Photography</Nav.Link>
                                 </LinkContainer>
                             </Nav>
