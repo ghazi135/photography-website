@@ -21,7 +21,6 @@ function Photography() {
 
     return (
         <Fade in timeout={{enter: 1200}}>
-
             <div className="Photography">
                 <Gallery photos={photos} onClick={openLightbox} />
                 <ModalGateway>

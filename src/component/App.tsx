@@ -8,6 +8,7 @@ import Contact from "./contact/Contact";
 import Project from "./project/Project";
 import Footer from "./footer/Footer";
 import Photography from "./photos/Photography";
+import Error from "./error/Error";
 
 
 function App() {
@@ -15,11 +16,15 @@ function App() {
         <div className="App">
             <Header/>
             <Routes>
-                <Route path="/" element={<About/>}/>
-                <Route path="/about" element={<About/>}/>
-                <Route path="/contact" element={<Contact/>}/>
-                <Route path="/project" element={<Project/>}/>
-                <Route path="/photography" element={<Photography />}/>
+                    <Route path="/" element={<About/>}/>
+                    <Route path="/about" element={<About/>}/>
+                    <Route path="/contact" element={<Contact/>}/>
+                    <Route path="/project" element={<Project/>}/>
+                    <Route path="/photography" element={<Photography />}/>
+                    <Route path="/*" element={<Error />}/>
+
+
+
             </Routes>
             <Footer/>
         </div>
