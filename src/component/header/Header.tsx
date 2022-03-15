@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import {Container, Nav, Navbar} from "react-bootstrap";
 import {LinkContainer} from 'react-router-bootstrap';
-import {Fade} from "@mui/material";
+import {Fade, Link} from "@mui/material";
 
 function Header() {
     return (
@@ -22,18 +22,19 @@ function Header() {
 
                             </Nav>
                             <Nav>
-                                <LinkContainer to={process.env.PUBLIC_URL + "/contact"}>
-                                    <Nav.Link>Contact</Nav.Link>
+
+                                <LinkContainer to={process.env.PUBLIC_URL + "/portrait"}>
+                                    <Nav.Link>Portrait</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to={process.env.PUBLIC_URL + "/about"}>
-                                    <Nav.Link>About</Nav.Link>
+                                <LinkContainer to={process.env.PUBLIC_URL + "/landscape"}>
+                                    <Nav.Link>Landscapes</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to={process.env.PUBLIC_URL + "/project"}>
-                                    <Nav.Link>Project</Nav.Link>
+                                <LinkContainer to={process.env.PUBLIC_URL + "/long-exposer"}>
+                                 <Nav.Link> Long Exposer</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to={process.env.PUBLIC_URL + "/photography"}>
-                                    <Nav.Link>Photography</Nav.Link>
-                                </LinkContainer>
+
+                                      <Nav.Link href="https://ghazibouzazi.com/">Software Development</Nav.Link>
+
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

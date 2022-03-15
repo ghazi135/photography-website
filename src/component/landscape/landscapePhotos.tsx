@@ -25,7 +25,7 @@ import photo20 from '../../constants/photography/IMG_3065.jpg';
 
 
 
-export const photos = [
+export const landscapePhotos = [
     {
         src: photo1,
         width: 10,

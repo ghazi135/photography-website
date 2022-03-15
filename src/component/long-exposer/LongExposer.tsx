@@ -1,10 +1,10 @@
 import React, {useCallback, useState} from "react";
-import './Photography.css';
+import './LongExposer.css';
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import {photos} from './photos';
+import {LongExposerPhotos} from './LongExposerPhotos';
 import {Fade} from "@mui/material";
-function Photography() {
+function LongExposer() {
     const [currentImage, setCurrentImage] = useState(0);
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
@@ -22,13 +22,13 @@ function Photography() {
     return (
         <Fade in timeout={{enter: 1200}}>
             <div className="Photography">
-                <Gallery photos={photos} onClick={openLightbox} />
+                <Gallery photos={LongExposerPhotos} onClick={openLightbox} />
                 <ModalGateway>
                     {viewerIsOpen ? (
                         <Modal onClose={closeLightbox}>
                             <Carousel
                                 currentIndex={currentImage}
-                                views={photos.map(x => ({
+                                views={LongExposerPhotos.map(x => ({
                                     ...x,
                                     source: x?.src,
 
@@ -43,4 +43,4 @@ function Photography() {
 
 }
 
-export default Photography;
+export default LongExposer;
