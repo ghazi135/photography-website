@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import {Container, Nav, Navbar} from "react-bootstrap";
 import {LinkContainer} from 'react-router-bootstrap';
-import {Fade, Link} from "@mui/material";
+import {Fade} from "@mui/material";
 
 function Header() {
     return (
