@@ -8,6 +8,7 @@ import Error from "./error/Error";
 import Portrait from "./portrait/Portrait";
 import Landscape from "./landscape/Landscape";
 import LongExposer from "./long-exposer/LongExposer";
+import About from "./about/About";
 
 
 function App() {
@@ -15,13 +16,12 @@ function App() {
         <div className="App">
             <Header/>
             <Routes >
-
+                <Route path={process.env.PUBLIC_URL + "/"} element={<About />}/>
+                <Route path={process.env.PUBLIC_URL + "/about"} element={<About />}/>
                 <Route path={process.env.PUBLIC_URL + "/landscape"} element={<Landscape />}/>
                 <Route path={process.env.PUBLIC_URL + "/long-exposer"} element={<LongExposer />}/>
-
                 <Route path={process.env.PUBLIC_URL + "/portrait"} element={<Portrait />}/>
                 <Route path={process.env.PUBLIC_URL + "*"} element={<Error />}/>
-
             </Routes>
             <Footer/>
         </div>

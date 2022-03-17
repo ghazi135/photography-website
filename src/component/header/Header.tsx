@@ -23,6 +23,7 @@ function Header() {
                             </Nav>
                             <Nav>
 
+
                                 <LinkContainer to={process.env.PUBLIC_URL + "/portrait"}>
                                     <Nav.Link>Portrait</Nav.Link>
                                 </LinkContainer>
@@ -32,7 +33,9 @@ function Header() {
                                 <LinkContainer to={process.env.PUBLIC_URL + "/long-exposer"}>
                                  <Nav.Link> Long Exposer</Nav.Link>
                                 </LinkContainer>
-
+                                <LinkContainer to={process.env.PUBLIC_URL + "/about"}>
+                                    <Nav.Link>About</Nav.Link>
+                                </LinkContainer>
                                       <Nav.Link href="https://ghazibouzazi.com/">Software Development</Nav.Link>
 
                             </Nav>
