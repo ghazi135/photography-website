@@ -1,16 +1,12 @@
 import photo1 from '../../constants/portrait/_MG_7578.jpg';
-
 import photo2 from '../../constants/portrait/_MG_7580.jpg';
-
 import photo3 from '../../constants/portrait/_MG_7579.jpg';
 import photo4 from '../../constants/portrait/_MG_8734.jpg';
 import photo5 from '../../constants/portrait/_MG_8669.jpg';
 import photo6 from '../../constants/portrait/_MG_8673.jpg';
-
 import photo7 from '../../constants/portrait/_MG_8749.jpg';
 import photo8 from '../../constants/portrait/_MG_7833.jpg';
 import photo9 from '../../constants/portrait/_MG_7899.jpg';
-
 import photo10 from '../../constants/portrait/_MG_7908.jpg';
 
 
