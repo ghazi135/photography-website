@@ -24,16 +24,16 @@ function Header() {
                             <Nav>
 
 
-                                <LinkContainer to={process.env.PUBLIC_URL + "/portrait"}>
+                                <LinkContainer to={"/portrait"}>
                                     <Nav.Link>Portrait</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to={process.env.PUBLIC_URL + "/landscape"}>
+                                <LinkContainer to={"/landscape"}>
                                     <Nav.Link>Landscapes</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to={process.env.PUBLIC_URL + "/long-exposer"}>
+                                <LinkContainer to={"/long-exposer"}>
                                  <Nav.Link> Long Exposer</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to={process.env.PUBLIC_URL + "/about"}>
+                                <LinkContainer to={"/about"}>
                                     <Nav.Link>About</Nav.Link>
                                 </LinkContainer>
                                       <Nav.Link href="https://ghazibouzazi.com/">Software Development</Nav.Link>

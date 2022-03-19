@@ -16,12 +16,12 @@ function App() {
         <div className="App">
             <Header/>
             <Routes >
-                <Route path={process.env.PUBLIC_URL + "/"} element={<About />}/>
-                <Route path={process.env.PUBLIC_URL + "/about"} element={<About />}/>
-                <Route path={process.env.PUBLIC_URL + "/landscape"} element={<Landscape />}/>
-                <Route path={process.env.PUBLIC_URL + "/long-exposer"} element={<LongExposer />}/>
-                <Route path={process.env.PUBLIC_URL + "/portrait"} element={<Portrait />}/>
-                <Route path={process.env.PUBLIC_URL + "*"} element={<Error />}/>
+                <Route path={"/"} element={<About />}/>
+                <Route path={"/about"} element={<About />}/>
+                <Route path={"/landscape"} element={<Landscape />}/>
+                <Route path={"/long-exposer"} element={<LongExposer />}/>
+                <Route path={"/portrait"} element={<Portrait />}/>
+                <Route path={"*"} element={<Error />}/>
             </Routes>
             <Footer/>
         </div>
