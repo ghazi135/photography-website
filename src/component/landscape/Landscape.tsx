@@ -1,36 +1,48 @@
 import React, {useCallback, useState} from "react";
 import './Landscape.css';
-import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import {landscapePhotos} from './landscapePhotos';
-import {Fade} from "@mui/material";
+import {Fade, ImageList, ImageListItem} from "@mui/material";
+
 function Landscape() {
-    const [currentImage, setCurrentImage] = useState(0);
+    const [currentImage, setCurrentImage] = useState("");
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-    const openLightbox = useCallback((event, { photo, index }) => {
-        setCurrentImage(index);
+    const openLightbox = useCallback(image => {
+        setCurrentImage(image);
         setViewerIsOpen(true);
     }, []);
 
     const closeLightbox = () => {
-        setCurrentImage(0);
+        setCurrentImage("");
         setViewerIsOpen(false);
     };
 
 
     return (
         <Fade in timeout={{enter: 1200}}>
-            <div className="Photography">
-                <Gallery photos={landscapePhotos} onClick={openLightbox} />
-                <ModalGateway>
+            <div>
+
+                <ImageList cols={3} >
+                    {landscapePhotos.map((item) => (
+                        <ImageListItem key={item}>
+                            <img
+                                onClick={() =>openLightbox(item)}
+                                src={item}
+                                alt={"test"}
+                                loading="lazy"
+                            />
+                            position="below"
+                        </ImageListItem>
+                    ))}
+                </ImageList>
+                    <ModalGateway>
                     {viewerIsOpen ? (
                         <Modal onClose={closeLightbox}>
                             <Carousel
-                                currentIndex={currentImage}
+                                currentIndex={landscapePhotos.indexOf(currentImage)}
                                 views={landscapePhotos.map(x => ({
-                                    ...x,
-                                    source: x?.src,
+                                    source: x,
 
                                 }))}
                             />

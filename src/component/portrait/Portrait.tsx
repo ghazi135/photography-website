@@ -1,38 +1,50 @@
 import React, {useCallback, useState} from "react";
 import './Portrait.css';
-import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import {portraitPhotos} from './PortraitPhotos';
-import {Fade} from "@mui/material";
+import {Fade, ImageList, ImageListItem} from "@mui/material";
+import {portraitPhotos} from "./PortraitPhotos";
 
 function Landscape() {
-    const [currentImage, setCurrentImage] = useState(0);
+    const [currentImage, setCurrentImage] = useState("");
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-    const openLightbox = useCallback((event, { photo, index }) => {
-        setCurrentImage(index);
+    const openLightbox = useCallback(image => {
+        setCurrentImage(image);
         setViewerIsOpen(true);
     }, []);
 
     const closeLightbox = () => {
-        setCurrentImage(0);
+        setCurrentImage("");
         setViewerIsOpen(false);
     };
 
 
     return (
         <Fade in timeout={{enter: 1200}}>
-            <div className="Photography">
-                <Gallery photos={portraitPhotos} onClick={openLightbox} />
+            <div>
+
+            <ImageList cols={3} >
+
+                {portraitPhotos.map((item) => (
+                    <ImageListItem key={item}>
+                        <img
+                            onClick={() =>openLightbox(item)}
+                            src={item}
+                            alt={"test"}
+                            loading="lazy"
+                        />
+                        position="below"
+
+                    </ImageListItem>
+                ))}
+            </ImageList>
                 <ModalGateway>
                     {viewerIsOpen ? (
                         <Modal onClose={closeLightbox}>
                             <Carousel
-                                currentIndex={currentImage}
+                                currentIndex={portraitPhotos.indexOf(currentImage)}
                                 views={portraitPhotos.map(x => ({
-                                    ...x,
-                                    source: x?.src,
-
+                                    source: x,
                                 }))}
                             />
                         </Modal>

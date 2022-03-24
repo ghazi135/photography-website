@@ -14,15 +14,16 @@ import About from "./about/About";
 function App() {
     return (
         <div className="App">
-            <Header/>
-            <Routes >
-                <Route path={"/"} element={<About />}/>
-                <Route path={"/about"} element={<About />}/>
-                <Route path={"/landscape"} element={<Landscape />}/>
-                <Route path={"/long-exposer"} element={<LongExposer />}/>
-                <Route path={"/portrait"} element={<Portrait />}/>
-                <Route path={"*"} element={<Error />}/>
-            </Routes>
+                <Header/>
+                <Routes >
+                    <Route path={"/"} element={<About />}/>
+                    <Route path={"/about"} element={<About />}/>
+                    <Route path={"/landscape"} element={<Landscape />}/>
+                    <Route path={"/long-exposer"} element={<LongExposer />}/>
+                    <Route path={"/portrait"} element={<Portrait />}/>
+                    <Route path={"*"} element={<Error />}/>
+                </Routes>
+
             <Footer/>
         </div>
     );
