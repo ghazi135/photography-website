@@ -23,7 +23,7 @@ function About() {
                                 <p>I'm from Tunisia and i moved to France when i was 17 years old.
                                     during my free time i'm going to do some photo sessions with some models or traveling and shoot the best landscapes or beautiful places in a lot of cities  </p>
 
-                                <p>Sometimes I blog (read: complain/meme) about coding and design and doing some shooting with models or landscapes.
+                                <p>Sometimes I travel and visit new countries  and doing some shooting with models or landscapes.
                                     go follow me on my instagram page and enjoy watching my best photos or watching my best moments that share on my story
                                 </p>
                             </Col>
@@ -43,7 +43,7 @@ function About() {
                                 <p>Hi <span className="wave" role="img" aria-label="wave">👋🏼</span> I'm Ghazi, a Full
                                     Stack web developer and a Photographer. Welcome in my photography universe </p>
                                 <p>I'm from Tunisia and i moved to France when i was 17 years old.
-                                    during my free time i'm going to do some photo sessions with some models or traveling and shoot the best landscapes or beautiful places in a lot of cities  </p>
+                                    I started photography 3 years ago because it was an activity that allows me to break my work routine  </p>
 
                                 <p>Sometimes I blog (read: complain/meme) about coding and design and doing some shooting with models or landscapes.
                                     go follow me on my instagram page and enjoy watching my best photos or watching my best moments that share on my story
