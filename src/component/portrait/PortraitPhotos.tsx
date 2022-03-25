@@ -16,6 +16,7 @@ import photo15 from '../../constants/portrait/_MG_9055.jpg';
 import photo16 from '../../constants/portrait/_MG_7523.jpg';
 import photo17 from '../../constants/portrait/_MG_7526.jpg';
 import photo18 from '../../constants/portrait/_MG_7530.jpg';
+import photo19 from '../../constants/portrait/IMG_1826_2.jpg';
 
 
 export const portraitPhotos = [
@@ -37,4 +38,5 @@ export const portraitPhotos = [
     photo16,
     photo17,
     photo18,
+    photo19,
 ];

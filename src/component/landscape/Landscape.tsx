@@ -21,9 +21,9 @@ function Landscape() {
 
     return (
         <Fade in timeout={{enter: 1200}}>
-            <div>
+            <div className="container">
 
-                <ImageList cols={3} >
+                <ImageList sx={{ width: "100%", height: "90%" }} cols={3} >
                     {landscapePhotos.map((item) => (
                         <ImageListItem key={item}>
                             <img

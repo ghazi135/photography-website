@@ -21,8 +21,8 @@ function LongExposer() {
 
     return (
         <Fade in timeout={{enter: 1200}}>
-            <div>
-                <ImageList cols={3} >
+            <div className="container">
+                <ImageList sx={{ width: "100%", height: "90%" }} cols={3} >
 
                     {LongExposerPhotos.map((item) => (
                         <ImageListItem key={item}>
