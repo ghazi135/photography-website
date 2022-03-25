@@ -3,7 +3,6 @@ import './LongExposer.css';
 import Carousel, { Modal, ModalGateway } from "react-images";
 import {LongExposerPhotos} from './LongExposerPhotos';
 import {Fade, ImageList, ImageListItem} from "@mui/material";
-import {landscapePhotos} from "../landscape/landscapePhotos";
 function LongExposer() {
     const [currentImage, setCurrentImage] = useState("");
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
@@ -22,6 +21,7 @@ function LongExposer() {
     return (
         <Fade in timeout={{enter: 1200}}>
             <div className="container">
+
                 <ImageList sx={{ width: "100%", height: "90%" }} cols={3} >
 
                     {LongExposerPhotos.map((item) => (
@@ -41,10 +41,9 @@ function LongExposer() {
                     {viewerIsOpen ? (
                         <Modal onClose={closeLightbox}>
                             <Carousel
-                                currentIndex={landscapePhotos.indexOf(currentImage)}
+                                currentIndex={LongExposerPhotos.indexOf(currentImage)}
                                 views={LongExposerPhotos.map(x => ({
                                     source: x,
-
                                 }))}
                             />
                         </Modal>
