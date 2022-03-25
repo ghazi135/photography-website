@@ -2,15 +2,8 @@ import photo1 from '../../constants/photography/_MG_3773.jpg';
 import photo2 from '../../constants/photography/_MG_3778.jpg';
 import photo3 from '../../constants/photography/_MG_3782.jpg';
 import photo5 from '../../constants/photography/IMG_2691.jpg';
-import photo7 from '../../constants/photography/IMG_2975.jpg';
 import photo8 from '../../constants/photography/IMG_3359.jpg';
-import photo10 from '../../constants/photography/IMG_3389.jpg';
-import photo11 from '../../constants/photography/IMG_3362.jpg';
 import photo12 from '../../constants/photography/IMG_3354_1.jpg';
-import photo13 from '../../constants/photography/IMG_3334.jpg';
-import photo14 from '../../constants/photography/IMG_3298.jpg';
-import photo15 from '../../constants/photography/IMG_3295.jpg';
-import photo16 from '../../constants/photography/IMG_3266.jpg';
 import photo17 from '../../constants/photography/landscape/_MG_4587.jpg';
 import photo18 from '../../constants/photography/landscape/_MG_4661.jpg';
 import photo19 from '../../constants/photography/landscape/_MG_4672.jpg';
@@ -55,15 +48,8 @@ export const landscapePhotos = [
     photo2,
     photo3,
     photo5,
-    photo7,
     photo8,
-    photo10,
-    photo11,
     photo12,
-    photo13,
-    photo14,
-    photo15,
-    photo16,
     photo17,
     photo18,
     photo19,

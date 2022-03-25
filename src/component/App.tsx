@@ -9,6 +9,7 @@ import Portrait from "./portrait/Portrait";
 import Landscape from "./landscape/Landscape";
 import LongExposer from "./long-exposer/LongExposer";
 import About from "./about/About";
+import Street from "./street/Street";
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
                     <Route path={"/landscape"} element={<Landscape />}/>
                     <Route path={"/long-exposer"} element={<LongExposer />}/>
                     <Route path={"/portrait"} element={<Portrait />}/>
+                    <Route path={"/street"} element={<Street />}/>
+
                     <Route path={"*"} element={<Error />}/>
                 </Routes>
 

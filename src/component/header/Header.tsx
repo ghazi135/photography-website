@@ -23,7 +23,9 @@ function Header() {
                             </Nav>
                             <Nav>
 
-
+                                <LinkContainer to={"/street"}>
+                                    <Nav.Link>Street</Nav.Link>
+                                </LinkContainer>
                                 <LinkContainer to={"/portrait"}>
                                     <Nav.Link>Portrait</Nav.Link>
                                 </LinkContainer>
