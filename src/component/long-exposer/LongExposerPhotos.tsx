@@ -1,22 +1,13 @@
-import photo1 from '../../constants/long-exposer-photos/IMG_3205.jpg';
-import photo2 from '../../constants/long-exposer-photos/IMG_3164.jpg';
-import photo3 from '../../constants/long-exposer-photos/IMG_3161.jpg';
-import photo4 from '../../constants/long-exposer-photos/IMG_3065.jpg';
-import photo5 from '../../constants/long-exposer-photos/_MG_3802.jpg';
-import photo6 from '../../constants/long-exposer-photos/_MG_3869.jpg';
-import photo7 from '../../constants/long-exposer-photos/_MG_3871_1.jpg';
-import photo8 from '../../constants/long-exposer-photos/_MG_4184.jpg';
 
 
 export const LongExposerPhotos = [
-    photo1,
-    photo2,
-    photo3,
-    photo4,
-    photo5,
-    photo6,
-    photo7,
-    photo8,
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648263257/long-exposer/_MG_4184_za4zx1.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648263244/long-exposer/_MG_3802_rbxydt.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/q_24/v1648262992/long-exposer/_MG_3869_mkjqcr.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648262986/long-exposer/IMG_3205_cfhmdk.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648262980/long-exposer/IMG_3164_smyqog.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648262978/long-exposer/IMG_3161_etmhvi.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/q_26/v1648262969/long-exposer/_MG_3871_1_jgc0dq.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648262930/long-exposer/IMG_3065_sbyq6v.jpg",
 
 ];
-

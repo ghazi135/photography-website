@@ -2,7 +2,7 @@ import React, {useCallback, useState} from "react";
 import './Street.css';
 import Carousel, { Modal, ModalGateway } from "react-images";
 import {Fade, ImageList, ImageListItem} from "@mui/material";
-import {streetPhotos} from "./StreetPhotos";
+import {streetPhotosTest} from "./StreetPhotos";
 
 function Street() {
     const [currentImage, setCurrentImage] = useState("");
@@ -25,10 +25,10 @@ function Street() {
 
             <ImageList sx={{ width: "100%", height: "90%" }} cols={3} >
 
-                {streetPhotos.map((item) => (
+                {streetPhotosTest.map((item) => (
                     <ImageListItem key={item}>
                         <img
-                            onClick={() =>openLightbox(item)}
+                            onClick={(e) =>{openLightbox(item);}}
                             src={item}
                             alt={"test"}
                             loading="lazy"
@@ -42,8 +42,8 @@ function Street() {
                     {viewerIsOpen ? (
                         <Modal onClose={closeLightbox}>
                             <Carousel
-                                currentIndex={streetPhotos.indexOf(currentImage)}
-                                views={streetPhotos.map(x => ({
+                                currentIndex={streetPhotosTest.indexOf(currentImage)}
+                                views={streetPhotosTest.map(x => ({
                                     source: x,
                                 }))}
                             />

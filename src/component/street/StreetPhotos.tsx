@@ -1,109 +1,50 @@
-import photo1 from '../../constants/street/tsconfig.jpg';
-import photo2 from '../../constants/street/README.jpg';
-import photo3 from '../../constants/street/index.jpg';
-import photo4 from '../../constants/street/IMG_3389.jpg';
-import photo5 from '../../constants/street/IMG_3334.jpg';
-import photo6 from '../../constants/street/IMG_3298.jpg';
-import photo7 from '../../constants/street/IMG_3295.jpg';
-import photo8 from '../../constants/street/IMG_3266.jpg';
-import photo9 from '../../constants/street/IMG_3362.jpg';
-import photo10 from '../../constants/street/IMG_2975.jpg';
-import photo11 from '../../constants/street/_MG_3650.jpg';
-import photo12 from '../../constants/street/_MG_3679.jpg';
-import photo13 from '../../constants/street/_MG_3682.jpg';
-import photo14 from '../../constants/street/_MG_3977.jpg';
-import photo15 from '../../constants/street/_MG_4064_1.jpg';
-import photo16 from '../../constants/street/_MG_4157.jpg';
-import photo17 from '../../constants/street/_MG_4167.jpg';
-import photo18 from '../../constants/street/_MG_4190.jpg';
-import photo19 from '../../constants/street/_MG_4192.jpg';
-import photo20 from '../../constants/street/_MG_4219.jpg';
-import photo21 from '../../constants/street/_MG_4267_1.jpg';
-import photo22 from '../../constants/street/_MG_4785-1.jpg';
-import photo23 from '../../constants/street/_MG_4809.jpg';
-import photo24 from '../../constants/street/_MG_4814.jpg';
-import photo25 from '../../constants/street/_MG_4815.jpg';
-import photo26 from '../../constants/street/_MG_4822.jpg';
-import photo27 from '../../constants/street/_MG_4837.jpg';
-import photo28 from '../../constants/street/_MG_4837_2.jpg';
-import photo29 from '../../constants/street/_MG_4841.jpg';
-import photo30 from '../../constants/street/_MG_4848.jpg';
-import photo31 from '../../constants/street/_MG_4850.jpg';
-import photo32 from '../../constants/street/_MG_4852.jpg';
-import photo33 from '../../constants/street/_MG_4882.jpg';
-import photo34 from '../../constants/street/_MG_4889_1.jpg';
-import photo35 from '../../constants/street/_MG_4891.jpg';
-import photo36 from '../../constants/street/_MG_4893_1.jpg';
-import photo37 from '../../constants/street/_MG_4949.jpg';
-import photo38 from '../../constants/street/_MG_4942.jpg';
-import photo39 from '../../constants/street/_MG_4946.jpg';
-import photo40 from '../../constants/street/_MG_4940.jpg';
-import photo41 from '../../constants/street/_MG_4953.jpg';
-import photo42 from '../../constants/street/_MG_4973.jpg';
-import photo43 from '../../constants/street/_MG_4979.jpg';
-import photo44 from '../../constants/street/_MG_5131.jpg';
-import photo45 from '../../constants/street/_MG_6064.jpg';
-import photo46 from '../../constants/street/_MG_7349.jpg';
-import photo47 from '../../constants/street/_MG_7366.jpg';
-import photo48 from '../../constants/street/_MG_8990.jpg';
-import photo49 from '../../constants/street/_MG_8993_1.jpg';
+
+export const streetPhotosTest = [
+
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261867/street/IMG_2975_cxmmvs.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/q_24/v1648333865/street/IMG_2922_zrygjn.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261460/street/IMG_3334_p5hnam.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260577/street/_MG_4942_wwthc6.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260789/street/_MG_4949_q4w70l.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260758/street/_MG_4946_mvebrk.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261543/street/index_z7xfbu.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261704/street/_MG_4815_bkbkmx.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261447/street/_MG_4841_ymux96.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261381/street/IMG_2891_z0ewre.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261478/street/IMG_3295_ezh3hf.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261262/street/IMG_2889_i1wpqo.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261037/street/_MG_4785-1_em1pn9.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261861/street/_MG_4267_1_tzcct5.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260937/street/_MG_5131_qeknb4.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261803/street/_MG_7349_csakv6.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261832/street/_MG_8990_fg5ll1.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261055/street/_MG_7366_bfpve4.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261567/street/_MG_4848_xo0gyn.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261311/street/_MG_4822_iyay2y.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261172/street/_MG_4814_p9vzow.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260839/street/_MG_4973_jlwa1c.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260905/street/_MG_4979_pihz37.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260608/street/_MG_4940_j78rj5.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260621/street/_MG_4893_1_j0mrwx.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260522/street/_MG_4891_yufmgw.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261626/street/_MG_4889_1_yl6orx.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261181/street/_MG_8993_1_iijgsj.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260914/street/_MG_4953_si4dd7.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261272/street/_MG_9063_bgnvzh.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260622/street/_MG_3682_ordqgi.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260688/street/_MG_3650_hemmwl.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260692/street/_MG_3679_pneyja.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260912/street/_MG_4190_z0e8m5.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260810/street/_MG_4020_clno8d.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261124/street/_MG_4192_qfelbb.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261171/street/_MG_9039_eimkag.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648260955/street/_MG_4219_rcd5ua.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648261268/street/_MG_9038_umuxhw.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648412481/street/_MG_4957_vrs9kd.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648412371/street/_MG_4965_b4ln59.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648412309/street/_MG_4962_omy2x0.jpg"
 
 
-
-
-
-
-
-export const streetPhotos = [
-    photo1,
-    photo2,
-    photo3,
-    photo4,
-    photo5,
-    photo6,
-    photo7,
-    photo8,
-    photo9,
-    photo10,
-    photo11,
-    photo12,
-    photo13,
-    photo14,
-    photo15,
-    photo16,
-    photo17,
-    photo18,
-    photo19,
-    photo20,
-    photo21,
-    photo22,
-    photo23,
-    photo24,
-    photo25,
-    photo26,
-    photo27,
-    photo28,
-    photo29,
-    photo30,
-    photo31,
-    photo32,
-    photo33,
-    photo34,
-    photo35,
-    photo36,
-    photo37,
-    photo38,
-    photo39,
-    photo40,
-    photo41,
-    photo42,
-    photo43,
-    photo44,
-    photo45,
-    photo46,
-    photo47,
-    photo48,
-    photo49,
 
 
 

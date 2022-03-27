@@ -1,85 +1,20 @@
-import photo1 from '../../constants/photography/_MG_3773.jpg';
-import photo2 from '../../constants/photography/_MG_3778.jpg';
-import photo3 from '../../constants/photography/_MG_3782.jpg';
-import photo5 from '../../constants/photography/IMG_2691.jpg';
-import photo8 from '../../constants/photography/IMG_3359.jpg';
-import photo12 from '../../constants/photography/IMG_3354_1.jpg';
-import photo17 from '../../constants/photography/landscape/_MG_4587.jpg';
-import photo18 from '../../constants/photography/landscape/_MG_4661.jpg';
-import photo19 from '../../constants/photography/landscape/_MG_4672.jpg';
-import photo20 from '../../constants/photography/landscape/_MG_4677.jpg';
-import photo21 from '../../constants/photography/landscape/_MG_4682.jpg';
-import photo22 from '../../constants/photography/landscape/_MG_4685.jpg';
-import photo23 from '../../constants/photography/landscape/_MG_4688.jpg';
-import photo24 from '../../constants/photography/landscape/_MG_4694.jpg';
-import photo25 from '../../constants/photography/landscape/_MG_4691.jpg';
-import photo26 from '../../constants/photography/landscape/IMG_2712.jpg';
-import photo27 from '../../constants/photography/landscape/_MG_5764.jpg';
-import photo28 from '../../constants/photography/landscape/_MG_5692.jpg';
-import photo29 from '../../constants/photography/landscape/_MG_5592_1.jpg';
-import photo30 from '../../constants/photography/landscape/_MG_5591.jpg';
-import photo31 from '../../constants/photography/landscape/_MG_5599.jpg';
-import photo32 from '../../constants/photography/landscape/_MG_5595.jpg';
-import photo33 from '../../constants/photography/landscape/_MG_5601.jpg';
-import photo34 from '../../constants/photography/landscape/_MG_4737.jpg';
-import photo35 from '../../constants/photography/landscape/_MG_4702.jpg';
-import photo36 from '../../constants/photography/landscape/_MG_4705.jpg';
-import photo37 from '../../constants/photography/landscape/_MG_4690.jpg';
-import photo38 from '../../constants/photography/landscape/_MG_4699.jpg';
-import photo39 from '../../constants/photography/landscape/_MG_4698.jpg';
-import photo40 from '../../constants/photography/landscape/_MG_4868.jpg';
-import photo41 from '../../constants/photography/landscape/_MG_4687.jpg';
-import photo42 from '../../constants/photography/landscape/_MG_5526.jpg';
-import photo43 from '../../constants/photography/landscape/_MG_4700.jpg';
-import photo44 from '../../constants/photography/landscape/_MG_4874.jpg';
-
-
-
-
-
-
-
-
-
-
 
 export const landscapePhotos = [
-    photo1,
-    photo2,
-    photo3,
-    photo5,
-    photo8,
-    photo12,
-    photo17,
-    photo18,
-    photo19,
-    photo20,
-    photo21,
-    photo22,
-    photo23,
-    photo24,
-    photo25,
-    photo26,
-    photo27,
-    photo28,
-    photo29,
-    photo30,
-    photo31,
-    photo32,
-    photo33,
-    photo34,
-    photo35,
-    photo36,
-    photo37,
-    photo38,
-    photo39,
-    photo40,
-    photo41,
-    photo42,
-    photo43,
-    photo44,
-
-
+"https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265217/landscapes/_MG_5599_gzxbjo.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265217/landscapes/_MG_5692_jbgmdz.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265241/landscapes/_MG_5591_xdmfhu.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265303/landscapes/_MG_4687_gbbvv2.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265034/landscapes/_MG_4672_gztvr6.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265191/landscapes/_MG_4688_chwnts.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265253/landscapes/_MG_5601_baeqvp.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265254/landscapes/_MG_5595_ohjjh2.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265093/landscapes/_MG_4737_wj2a95.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265022/landscapes/_MG_4661_bbcytu.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265044/landscapes/_MG_4587_x77sk6.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265092/landscapes/_MG_4702_pj2yts.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265178/landscapes/_MG_4694_okvqea.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265118/landscapes/_MG_5526_d6pttb.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265148/landscapes/_MG_4698_qdrbmb.jpg"
 
 
 ];
