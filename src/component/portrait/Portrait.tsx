@@ -28,6 +28,8 @@ function Landscape() {
                 {portraitPhotos.map((item) => (
                     <ImageListItem key={item}>
                         <img
+                            onContextMenu={(e)=> e.preventDefault()}
+
                             onClick={() =>openLightbox(item)}
                             src={item}
                             alt={"test"}
@@ -41,12 +43,15 @@ function Landscape() {
                 <ModalGateway>
                     {viewerIsOpen ? (
                         <Modal onClose={closeLightbox}>
-                            <Carousel
-                                currentIndex={portraitPhotos.indexOf(currentImage)}
-                                views={portraitPhotos.map(x => ({
-                                    source: x,
-                                }))}
-                            />
+                            <div onContextMenu={(e)=> e.preventDefault()}>
+                                <Carousel
+                                    currentIndex={portraitPhotos.indexOf(currentImage)}
+                                    views={portraitPhotos.map(x => ({
+                                        source: x,
+                                    }))}
+                                />
+                            </div>
+
                         </Modal>
                     ) : null}
                 </ModalGateway>

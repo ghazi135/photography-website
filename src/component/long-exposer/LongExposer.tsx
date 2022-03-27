@@ -27,6 +27,7 @@ function LongExposer() {
                     {LongExposerPhotos.map((item) => (
                         <ImageListItem key={item}>
                             <img
+                                onContextMenu={(e)=> e.preventDefault()}
                                 onClick={() =>openLightbox(item)}
                                 src={item}
                                 alt={"test"}
@@ -40,12 +41,15 @@ function LongExposer() {
                 <ModalGateway>
                     {viewerIsOpen ? (
                         <Modal onClose={closeLightbox}>
-                            <Carousel
-                                currentIndex={LongExposerPhotos.indexOf(currentImage)}
-                                views={LongExposerPhotos.map(x => ({
-                                    source: x,
-                                }))}
-                            />
+                            <div                            onContextMenu={(e)=> e.preventDefault()}>
+                                <Carousel
+                                    currentIndex={LongExposerPhotos.indexOf(currentImage)}
+                                    views={LongExposerPhotos.map(x => ({
+                                        source: x,
+                                    }))}
+                                />
+                            </div>
+
                         </Modal>
                     ) : null}
                 </ModalGateway>

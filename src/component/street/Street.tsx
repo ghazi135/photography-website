@@ -28,6 +28,7 @@ function Street() {
                 {streetPhotosTest.map((item) => (
                     <ImageListItem key={item}>
                         <img
+                            onContextMenu={(e)=> e.preventDefault()}
                             onClick={(e) =>{openLightbox(item);}}
                             src={item}
                             alt={"test"}
@@ -40,13 +41,18 @@ function Street() {
             </ImageList>
                 <ModalGateway>
                     {viewerIsOpen ? (
-                        <Modal onClose={closeLightbox}>
-                            <Carousel
-                                currentIndex={streetPhotosTest.indexOf(currentImage)}
-                                views={streetPhotosTest.map(x => ({
-                                    source: x,
-                                }))}
-                            />
+                        <Modal  onClose={closeLightbox}>
+                            <div                             onContextMenu={(e)=> e.preventDefault()}
+                            >
+                                <Carousel
+
+                                    currentIndex={streetPhotosTest.indexOf(currentImage)}
+                                    views={streetPhotosTest.map(x => ({
+                                        source: x,
+                                    }))}
+                                />
+                            </div>
+
                         </Modal>
                     ) : null}
                 </ModalGateway>
