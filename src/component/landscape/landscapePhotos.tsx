@@ -14,7 +14,12 @@ export const landscapePhotos = [
     "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265092/landscapes/_MG_4702_pj2yts.jpg",
     "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265178/landscapes/_MG_4694_okvqea.jpg",
     "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265118/landscapes/_MG_5526_d6pttb.jpg",
-    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265148/landscapes/_MG_4698_qdrbmb.jpg"
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/v1648265148/landscapes/_MG_4698_qdrbmb.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/q_62/v1648473198/landscapes/_MG_3773_jphhyz.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/q_auto:low/v1648473198/landscapes/_MG_3782_nvdnir.jpg",
+    "https://res.cloudinary.com/ghazibouzazi/image/upload/q_auto:low/v1648473198/landscapes/_MG_3778_djzxxt.jpg"
+
+
 
 
 ];

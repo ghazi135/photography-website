@@ -21,7 +21,8 @@ function Landscape() {
 
     return (
         <Fade in timeout={{enter: 1200}}>
-            <div className="container">
+            <div                                 onContextMenu={(e)=> e.preventDefault()}
+                                                 className="container">
 
                 <ImageList sx={{ width: "100%", height: "90%" }} cols={3} >
                     {landscapePhotos.map((item) => (
