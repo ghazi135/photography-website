@@ -13,9 +13,10 @@
 }
 
 .img-about-mobile {
+    margin-bottom: 40px;
     box-shadow: 2rem 2rem 2rem #000;
     border-radius: 50px;
-    width: 400px;
+    width: 380px;
     height: 300px;
     margin-left: -20px;
 }
