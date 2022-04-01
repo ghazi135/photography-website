@@ -18,28 +18,28 @@ function Footer() {
                                target="_blank"
                                rel="noreferrer noopener"
                                href="https://www.instagram.com/photos_of_ghazi/">
-                                <InstagramIcon sx={{ color: "white"}}/>
+                                <InstagramIcon   titleAccess="instagram" sx={{ color: "white"}}/>
                             </a>
 
                             <a className="links"
                                target="_blank"
                                rel="noreferrer noopener"
                                href="https://www.linkedin.com/in/ghazi-bouzazi/">
-                                <LinkedInIcon sx={{ color: "white"}}/>
+                                <LinkedInIcon  titleAccess="linkedin" sx={{ color: "white"}}/>
                             </a>
 
                             <a className="links"
                                target="_blank"
                                rel="noreferrer noopener"
                                href="https://github.com/ghazi135">
-                                <GitHubIcon sx={{ color: "white"}}/>
+                                <GitHubIcon  titleAccess="github" sx={{ color: "white"}}/>
                             </a>
 
                             <a  className="links"
                                 href='mailto:gbouzazi@gmail.com'
                                 target='_blank'
                                 rel='noopener noreferrer'>
-                                <MailOutlineIcon sx={{ color: "white"}}/>
+                                <MailOutlineIcon titleAccess="mail" sx={{ color: "white"}}/>
                             </a>
                         </div>
 
