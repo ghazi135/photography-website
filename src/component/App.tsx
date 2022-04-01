@@ -1,19 +1,25 @@
-import React from 'react';
+import React, {lazy, Suspense} from 'react';
 import '../App.css';
-import Header from "./header/Header";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Route, Routes} from 'react-router-dom';
-import Footer from "./footer/Footer";
-import Error from "./error/Error";
-import Portrait from "./portrait/Portrait";
-import Landscape from "./landscape/Landscape";
-import LongExposer from "./long-exposer/LongExposer";
-import About from "./about/About";
-import Street from "./street/Street";
+import {Box, LinearProgress} from "@mui/material";
 
 
+const About = lazy(() => import('./about/About'));
+const Landscape = lazy(() => import('./landscape/Landscape'));
+const Header = lazy(() => import('./header/Header'));
+const Footer = lazy(() => import('./footer/Footer'));
+const LongExposer = lazy(() => import('./long-exposer/LongExposer'));
+const Portrait = lazy(() => import('./portrait/Portrait'));
+const Street = lazy(() => import('./street/Street'));
+const Error = lazy(() => import('./error/Error'));
+
+const renderLoader = () =>  ( <Box sx={{  width: '100%' }}>
+    <LinearProgress color="inherit" />
+</Box>);
 function App() {
     return (
+        <Suspense fallback={renderLoader()}>
         <div className="App">
                 <Header/>
                 <Routes >
@@ -29,7 +35,9 @@ function App() {
 
             <Footer/>
         </div>
+        </Suspense>
     );
 }
 
 export default App;
+
